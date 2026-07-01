@@ -1,3 +1,12 @@
+package StartingWithJava;
+
+// int = 4 bytes
+// float = 4 bytes
+// double = 8 bytes
+// long = 8 bytes
+// short = 2 bytes
+// char = 2 bytes
+
 public class Main {
 
     public static void main(String[] args){
