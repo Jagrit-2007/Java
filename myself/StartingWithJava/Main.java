@@ -1,5 +1,8 @@
 package StartingWithJava;
 
+// 8 datatypes in java
+// byte
+// boolean = 1 bit
 // int = 4 bytes
 // float = 4 bytes
 // double = 8 bytes
