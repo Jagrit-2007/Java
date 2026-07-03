@@ -1,4 +1,4 @@
-package Chitkara_Classes.Operators;
+package Operators;
 
 // Operators :
 // 1. Arthemetic  2. Logical  3. Assignment  4. Relational  5. Ternary
@@ -9,8 +9,8 @@ public class Main {
 
 
         // *********************** Arthemetic Operators (+,-,*,/,%) **********************************
-
         // there is no exponential operator  : ** use,  Math.pow() which is in-built
+        // Order : PEMDAS , Paranthesis , Exponent, Multi, Divi, Add , Sub
 
         // Declaration
         int a,b;
