@@ -12,8 +12,15 @@ package StartingWithJava;
 
 public class Main {
 
+    // public class Main is the outer shell , everything in java lives inside a class
+    // here Main is file name and one should always use file name as Main
     public static void main(String[] args){
 
+        // this public static void main(String[] args) is the main method
+        // it is the absolute starting point (entry point) of java 
+        // when we run the JVM (java virtual machine) looks specifically for this line of code 
+        // (String[] args) is the parameter called arguments , it allows program to accept a list(an array)
+        // of text string from command line, even we dont use it , java requires it to be there
 
 
         System.out.print("I like pizza\n");
