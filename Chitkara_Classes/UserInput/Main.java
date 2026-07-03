@@ -34,6 +34,15 @@ public class Main {
         userInput.nextLine(); // will clear buffer if any
 
 
+        // Performing string methods
+
+        System.out.println(name.toLowerCase()); // Converts all chars to lowercase
+        System.out.println(name.toUpperCase()); // Converts all chars to UPPERCASE
+        System.out.println(name.length()); // Give length of string
+        System.out.println(name.isEmpty()); // Checks whether string is empty or not, returns boolean
+
+
+
         userInput.close(); // close the Scanner class
     }
 }
