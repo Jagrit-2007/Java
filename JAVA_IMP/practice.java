@@ -99,6 +99,64 @@ public class practice {
             System.out.println();
         }
 
-        // 
+        // ****************************************************************************************************
+
+        // STRINGS
+
+        String str1 = "Jagrit Bansal";
+
+        // string length : .lengh() , in strings we use () BUT In arrays we dont
+        int length = str1.length();
+        System.out.println(length);
+
+        // charAt(index) : return character at specific index
+
+        char ch = str1.charAt(0);
+        System.out.println(ch);
+        // In java there is no -1 index 
+        // ch = str1.charAt(-1);
+        // System.out.println(ch);
+
+        // indexOf()
+
+        int o = str1.indexOf("a"); // first occurence
+        System.out.println(o);
+
+        // lastIndexof("value")
+
+        // .equals() checks primitive value only
+
+        boolean isTrue = str1.equals("Jagrit Bansal");
+        System.out.println(isTrue);
+
+        // toUpperCase() , toLowerCase()
+
+        String st2 = str1.toUpperCase();
+        String st3 = str1.toLowerCase();
+
+        System.out.println(st2);
+        System.out.println(st3);
+
+        // isEmpty() : to check if string is empty or not
+
+        // replace(value1, value2) : replaces value1 with value2
+
+        // Substring
+
+        String sub = str1.substring(0,6); // (start, end) start is inclusive and end is exclusive
+        System.out.println(sub);
+
+        // **********************************************************************************************************************
+
+        // ARRAYS
+
+        int[] arr1 = {10, 20, 30, 40, 50};
+        // for arrays we use .length BUT In string we use .length()
+        System.out.println(arr1.length); 
+
+        for(int i = 0; i < arr1.length; i++){
+            System.out.print(arr1[i] + " ");
+        }
+        
     }
 }
