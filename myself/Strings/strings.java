@@ -73,5 +73,14 @@ public class strings {
             System.out.println("Incorrect username");
         }
 
+        String greetings = "HelloWorld";
+
+        char[] charArr = greetings.toCharArray();
+
+        for(char ch : charArr)
+        {
+            System.out.print(ch + " ");
+        }
+
     }
 }
