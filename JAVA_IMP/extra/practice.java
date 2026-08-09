@@ -1,4 +1,6 @@
 package JAVA_IMP;
+import java.util.Arrays;
+
 public class practice {
     public static void main(String[] args) {
         
@@ -157,6 +159,14 @@ public class practice {
         for(int i = 0; i < arr1.length; i++){
             System.out.print(arr1[i] + " ");
         }
+
+        // array sort in ascending order : Arrays.sort(arr1);
+
+        // **********************************************************************************************************************
+
+        // Palindrome
+
+        
         
     }
 }

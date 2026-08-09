@@ -13,6 +13,7 @@ interface Predator{
 class Rabbit implements Prey{
 
     @Override
+    // while overriding these methods , they need "access modifiers" like public, private, default, protected
     public void flee(){
         System.out.println("Rabbit is running away");
     }

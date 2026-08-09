@@ -1,4 +1,4 @@
-package JAVA_IMP;
+package JAVA_IMP.extra;
 
 public class heapMemoryDemo {
     

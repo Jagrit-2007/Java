@@ -1,4 +1,4 @@
-package OOPS.Inhertitence;
+package OOPS.Inheritence;
 
 // parent class
 class Person{

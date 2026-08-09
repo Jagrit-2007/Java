@@ -67,5 +67,27 @@ package Chitkara_Classes.OOPS;
 // }
 
 
+// the below code is not complete
 
+// class Animal {
 
+//     String animal_name = "Horse";
+// }
+
+// class Dog extends Animal{
+
+//     void display(){
+//         System.out.println(super.animal_name);
+//         super
+//     }
+
+// }
+
+// public class Inheritance{
+
+//     public static void main(String[] args) {
+        
+//         Dog dog = new Dog();
+//         dog.display();
+//     }
+// }

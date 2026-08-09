@@ -1,3 +1,5 @@
+package Questions.LogicalQues;
+
 public class allInOne {
 
     // 1. Armstrong Number (Without Math.pow)
