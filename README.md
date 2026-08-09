@@ -1,43 +1,62 @@
-Java Programming & Learning Repository
+# Java Learning Repository 📘
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+This repository is where I upload Java code as I learn the language — partly from my university classes and partly from self-study tutorials. It's mainly for keeping track of my own progress, but feel free to look around if you're learning Java too, it might help you as well. The repo is split into three folders based on where the learning is coming from.
 
+## Folder Structure
 
-\#\#  Repository Structure
+```
+.
+├── Chitkara_Classes/   Code from my Java classes at Chitkara University
+├── myself/             Code I'm writing while following BroCode's Java tutorial
+└── JAVA_IMP/           Java theory (mainly memory related) and practice questions
+```
 
+### Chitkara_Classes
+Java code and exercises from my classes at Chitkara University. This is basically whatever we cover in class, added here as I go through it.
 
-The repository is split into two primary tracks:
+### myself
+Code I write while following BroCode's Java tutorial on YouTube (his latest Java course). This is me practicing on my own alongside the videos, not copied directly from anywhere.
+Tutorial link: https://youtu.be/xTtL8E4LzTQ
 
+### JAVA_IMP
+Some Java theory I'm noting down, mostly around memory (like stack, heap, etc.), plus some practice questions to keep testing myself on the basics.
 
-\#\#\# 1.  \[College-Java-Work\](./College-Java-Work/) (or change to your exact folder name)
+## Purpose
 
+This repo is mainly a personal learning log — a place to keep everything I'm learning in one spot instead of scattered across my system, and to track progress over time. If it helps anyone else learning Java, that's a nice bonus.
 
-\#\#\# 2.  \[BroCode-Tutorial-Exercises\](./BroCode-Tutorial-Exercises/) (or change to your exact folder name)
+## Credits 🙏
 
+- The code in `Chitkara_Classes` is based on what's taught in my classes at Chitkara University. Credit for the course content goes to the university and my instructors.
+- The code in `myself` is written while following BroCode's Java tutorial on YouTube. Credit for the teaching goes to him: https://youtu.be/xTtL8E4LzTQ
+- `JAVA_IMP` is my own notes, put together from what I've learned across these sources.
 
-\#\# Credits & Acknowledgments
+This repo is for learning purposes only, not meant to copy or redistribute anyone's course content as is.
 
-\* \*\*Academic Section:\*\* All assignments in the college directory are completed in accordance with my university's curriculum guidelines. 
+## How to Run
 
-\* \*\*Tutorial Section:\*\* The code, logic, and project architectures in the tutorial directory are implemented while following the 
+Clone the repo:
 
-\*\*Java Full Course\*\* by \*\*\[Bro Code on YouTube\]([https://www.youtube.com/@BroCodez](https://www.youtube.com/@BroCodez))
+```bash
+git clone git@github.com:Jagrit-2007/Java.git
+cd Java
+```
 
-\*\* Huge thanks to him for the incredible educational content!
+Each file is a standalone Java file, so it can be compiled and run like this:
 
+```bash
+javac FileName.java
+java FileName
+```
 
+## Status
 
-\#\#  Tech Stack & Tools
+Still adding to this regularly as I keep learning Java. 🚧
 
-\* \*\*Language:\*\* Java  
+## Author
 
-\* \*\*IDEs used:\*\* VS Code  
+**Jagrit Bansal**
+- GitHub: [Jagrit-2007](https://github.com/Jagrit-2007)
+- LinkedIn: [jagrit-bansal-737993381](https://www.linkedin.com/in/jagrit-bansal-737993381/)
 
-\* \*\*Version Control:\*\* Git & GitHub
-
-
-\#\# How to Use This Repo
-
-Feel free to browse through the folders. If you want to run any of the files locally:
-
-1. Clone the repository: \`git clone https://github.com/YOUR\_USERNAME/YOUR\_REPO\_NAME.git\` 2. Open the desired directory in your preferred IDE. 3. Run the \`.java\` files using your configured Java environment. 
+Feel free to connect if you're learning Java too or have any suggestions!
