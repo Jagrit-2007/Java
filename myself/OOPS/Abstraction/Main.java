@@ -1,6 +1,7 @@
 package OOPS.Abstraction;
 
-// Making "Shape" an abstract class so that not everyone can use, it's mainly for security purposes.
+// Making "Shape" an abstract class so that not everyone can use, it's mainly for "Design consistency"
+// so that, like here's "area" so its compulsory for everyone to make a, abstract double area()(); "WITH NO BODY"
 abstract class Shape{
 
     abstract double area(); // abstract methods do not share any body.
