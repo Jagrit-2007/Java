@@ -11,6 +11,9 @@ abstract class LibraryMember{
 
 }
 
+// "extends" is a Inheritence keyword, we could inherit only 1 superclass
+// but by "interface" class we can inherit more than 1 superclass/parent by "implements" demonstrted in oops2.java
+
 class StudentMember extends LibraryMember{
 
     String memberName;
@@ -70,7 +73,7 @@ class ProffesorMember extends LibraryMember{
     }
 }
 
-public class oopsInOne {
+public class oops1 {
     
     public static void main(String[] args) {
      
@@ -81,24 +84,24 @@ public class oopsInOne {
         int choice = scanner.nextInt();
 
         // Buffer clean
-        System.out.println();
+        scanner.nextLine();
 
         // Input format 2
         System.out.print("Enter your name: ");
         String memberName = scanner.next();
 
-        System.out.println();
+        scanner.nextLine();
 
         System.out.print("Enter your ID: ");
         int memberId = scanner.nextInt();
-
-        System.out.println();
 
         // Input format 3 (inside the conditional statements)
         if(choice == 1)
         {
             System.out.print("Enter academic year: ");
             int academicYear = scanner.nextInt();
+
+            System.out.println();
 
             // Creating a student object
             StudentMember studentMember = new StudentMember(memberId, choice, academicYear, memberName);
@@ -108,6 +111,8 @@ public class oopsInOne {
         {
             System.out.print("Enter your department: ");
             String department = scanner.next();
+
+            System.out.println();
 
             // Creating a proffesor object
             ProffesorMember proffesorMember = new ProffesorMember(memberId, choice, department, memberName);
