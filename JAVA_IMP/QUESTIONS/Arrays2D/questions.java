@@ -205,17 +205,82 @@ public class questions {
 
         // Matrix Multiplication : use matrix1 and matrix2
 
+        int[][] multiMatrix = new int[matrix1.length][matrix2[0].length];
 
+        for(int i = 0; i < matrix1.length; i++)
+        {
+            for(int j = 0; j < matrix2[0].length; j++)
+            {
+
+            }
+        }
+
+        for(int nums[] : multiMatrix)
+        {
+            for(int num : nums)
+            {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
 
 
 
         // Spiral Matrix
 
+        int top = 0;
+        int bottom = matrix1.length - 1;
+
+        int left = 0;
+        int right = matrix1[0].length -1;
+
+        while(left <= right && top <= bottom)
+        {
+            for(int i = left; i <= right; i++)
+            {
+                System.out.print(matrix1[top][i] + " ");
+            } top++;
+            for(int i = top; i <= bottom; i++)
+            {
+                System.out.print(matrix1[i][right] + " ");
+            } right--;
+            
+            if(top <= bottom)
+            {
+                for(int i = right; i >= left; i--)
+                {
+                    System.out.print(matrix1[bottom][i] + " ");
+                }   bottom--; 
+            }
+
+            if(left <= right)
+            {
+                for(int i = bottom; i >= top; i--)
+                {
+                   System.out.print(matrix1[i][left] + " ");
+                }  left++;
+            }   
+        }
+        System.out.println();
+        
+
         // 2x2 Determinant
+
+        int[][] det21 = {{1,2}, {3,4}};
+
+        int det2x2 = (det21[0][0] * det21[1][1]) - (det21[0][1] * det21[1][0]);
+
+        System.out.println("Determinant of 2x2 matrix: " + det2x2);
 
         // 3x3 Determinantttt
 
+        int a = matrix1[0][0] , b = matrix1[0][1] , c = matrix1[0][2];
+        int d = matrix1[1][0] , e = matrix1[1][1] , f = matrix1[1][2];
+        int g = matrix1[2][0] , h = matrix1[2][1] , i = matrix1[2][2];
 
+        int det3x3 = (a * (e*i - f*h)) - (b * (d*i - f*g)) + (c * (d*h - g*e));
+
+        System.out.println("Determinant of 3x3 matrix: " + det3x3);
 
 
 
